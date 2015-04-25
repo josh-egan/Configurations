@@ -1,0 +1,9 @@
+I currently don't know of a way to save ConEmu configuration files, but it's probably possible. When I figure that out I'll save the configuration files instead of this document.
+
+This will set up a main left pane with the right pane split vertically.
+
+>cmd -new_console:C:"C:\Program Files (x86)\Git\etc\git.ico" /k cd /d "C:\Users\Joshua\Dev\www\tech.joshegan.com" & "%ProgramFiles(x86)%\Git\bin\sh.exe" --login -i"
+
+cmd -new_console:ns1T33H /k cd /d "C:\Users\Joshua\Dev\www\tech.joshegan.com" & gulp watch
+
+cmd -new_console:ns2TV /k cd /d "C:\Users\Joshua\Dev\www\tech.joshegan.com" & karma start
