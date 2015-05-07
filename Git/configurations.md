@@ -11,3 +11,7 @@
 ### Setting up SSH for GitHub
 - [Generate an SSH Key](https://help.github.com/articles/generating-ssh-keys/)
 - [Setup the Remote Url](https://help.github.com/articles/changing-a-remote-s-url/)
+
+### Awesome Aliases
+- `git config --global alias.lga "log --all --color --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"`
+
