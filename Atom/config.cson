@@ -1,0 +1,22 @@
+"*":
+  "exception-reporting":
+    userId: ...
+  welcome:
+    showOnStartup: false
+  core:
+    {}
+  editor:
+    invisibles:
+      {}
+    fontSize: 17
+  "atom-beautify":
+    _analyticsUserId: ...
+    js_max_preserve_newlines: 2
+    js_jslint_happy: true
+    html_max_preserve_newlines: 2
+    js_eval_code: true
+    js_keep_array_indentation: true
+    js_keep_function_indentation: true
+    js_space_after_anon_function: true
+    language_js_beautify_on_save: true
+    js_end_with_newline: true
