@@ -20,3 +20,5 @@
     js_space_after_anon_function: true
     language_js_beautify_on_save: true
     js_end_with_newline: true
+  "pigments":
+    markerType: "dot"
