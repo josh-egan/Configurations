@@ -1,3 +1,5 @@
 ### Packages to install
-* atom-beautify - Performs a code cleanup.
-* color-picker - An excellent tool for (you guessed it) picking colors.
+|Package|Description|
+|---|---|
+|atom-beautify|Performs code cleanup|
+|color-picker|Excellent color picker|
