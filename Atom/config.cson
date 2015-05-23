@@ -24,5 +24,6 @@
     js_end_with_newline: true
     language_js_beautify_on_save: true
     language_json_beautify_on_save: true
+    language_markdown_beautify_on_save: true
   "pigments":
     markerType: "dot"
