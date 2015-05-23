@@ -27,3 +27,5 @@
     language_markdown_beautify_on_save: true
   "pigments":
     markerType: "dot"
+  "open-recent":
+    maxRecentFiles: 10
