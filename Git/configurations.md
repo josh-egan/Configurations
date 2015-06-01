@@ -7,6 +7,7 @@
 - `git config --global core.safecrlf false`
 - `git config --global core.editor \ "'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -notabbar -nosession"`
 - `git config --global push.default simple`
+- `git config --global pull.rebase true`
 
 ### Setting up SSH for GitHub
 - [Generate an SSH Key](https://help.github.com/articles/generating-ssh-keys/)
