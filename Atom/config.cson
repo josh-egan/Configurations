@@ -1,11 +1,11 @@
 "*":
   "exception-reporting":
     userId: ...
-  welcome:
+  "welcome":
     showOnStartup: false
-  core:
+  "core":
     {}
-  editor:
+  "editor":
     invisibles:
       {}
     fontSize: 16
