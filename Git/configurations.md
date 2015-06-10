@@ -16,3 +16,4 @@
 ### Awesome Aliases
 - `git config --global alias.lga "log --all --color --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"`
 - `git config --global alias.s "status -su"`
+- `git config --global alias.pr "pull --rebase"`
