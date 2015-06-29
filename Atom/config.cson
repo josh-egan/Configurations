@@ -3,11 +3,9 @@
     userId: ...
   "welcome":
     showOnStartup: false
-  "core":
-    {}
+  "core": {}
   "editor":
-    invisibles:
-      {}
+    invisibles: {}
     fontSize: 16
     showIndentGuide: true
     scrollPastEnd: true
