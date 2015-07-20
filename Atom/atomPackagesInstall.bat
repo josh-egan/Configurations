@@ -9,6 +9,7 @@ set p=%p% linter
 set p=%p% open-recent
 set p=%p% pigments
 set p=%p% sublime-style-column-selection
+set p=%p% file-icons
 
 for %%a in (%p%) do (
   %USERPROFILE%\AppData\Local\atom\bin\apm install %%a
