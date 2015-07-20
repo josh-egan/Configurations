@@ -27,3 +27,5 @@
     markerType: "dot"
   "open-recent":
     maxRecentFiles: 10
+  "file-icons":
+    onChanges: true
