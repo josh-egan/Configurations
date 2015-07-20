@@ -26,6 +26,7 @@
   "pigments":
     markerType: "dot"
   "open-recent":
-    maxRecentFiles: 10
+    maxRecentFiles: 5
+    maxRecentDirectories: 10
   "file-icons":
     onChanges: true
