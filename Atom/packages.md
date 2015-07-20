@@ -10,3 +10,4 @@ Package                                                                         
 [open-recent](https://atom.io/packages/open-recent)                                       | Adds ability to open recent files/folders
 [pigments](https://atom.io/packages/pigments)                                             | Powerful for highlighting and managing colors
 [sublime-style-column-selection](https://atom.io/packages/sublime-style-column-selection) | Adds ability to do multi column cursor selection with Alt+Click+Drag
+[file-icons](https://atom.io/packages/file-icons)                                         | Adds file icons for common file types. Also supports colored when changed.
