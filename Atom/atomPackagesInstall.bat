@@ -3,7 +3,6 @@ REM The directory in which the script is run doesn't matter. Packages will alway
 
 set p=atom-beautify
 set p=%p% color-picker
-set p=%p% emmet
 set p=%p% file-icons
 set p=%p% language-batchfile
 set p=%p% language-jade
