@@ -1,0 +1,9 @@
+# clipboard-plus
+'.platform-darwin atom-text-editor:not([mini])':
+  'cmd-shift-v': 'clipboard-plus:toggle'
+
+'.platform-win32 atom-text-editor:not([mini])':
+  'ctrl-shift-v': 'clipboard-plus:toggle'
+
+'.platform-linux atom-text-editor:not([mini])':
+  'ctrl-shift-v': 'clipboard-plus:toggle'

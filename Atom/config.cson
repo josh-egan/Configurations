@@ -30,3 +30,7 @@
     maxRecentDirectories: 10
   "file-icons":
     onChanges: true
+  "clipboard-plus":
+    minimumTextLength: 1
+    maximumTextLength: 5000
+    maximumLinesNumber: 3
