@@ -22,10 +22,17 @@ ReSharper settings can be saved to the following locations:
 
 Configuration|Config File Location and Name
 ---|---
-This comptuer|%AppData%JetBrains\ReSharper\vAny\GlobalSettingsStorage.DotSettings (e.g. C:\Users\Joshua\AppData\Local\JetBrains\ReSharper\vAny\GlobalSettingsStorage.DotSettings)
+This comptuer|%AppData%JetBrains\ReSharper\vAny\GlobalSettingsStorage.DotSettings (e.g. C:\Users\Joshua\AppData\Roaming\JetBrains\ReSharper\vAny\GlobalSettingsStorage.DotSettings)
 Solution team-shared|%SolutionName%.sln.DotSettings
 Solution personal|%SolutionName%.sln.DotSettings.user
 
 Custom configurations can also be created. Custom configuration files will obviously live wherever they are configured to live.
 
 For complete details, please see the docs here: https://www.jetbrains.com/resharper/help/Sharing_Configuration_Options.html
+
+## Additional Tools
+
+### Plugins for executing ReSharper Code Clean-up on save
+
+* [ReSharper.AutoFormatOnSave](https://visualstudiogallery.msdn.microsoft.com/b5445a42-8c98-43cc-a4c5-7f7496f647c6)
+* [ReSharper Format on Save](https://visualstudiogallery.msdn.microsoft.com/43be6ead-dabf-4bb1-b019-1e361efd8410)
