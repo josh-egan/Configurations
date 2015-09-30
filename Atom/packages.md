@@ -2,6 +2,7 @@
 
 Package                                                                                   | Description
 ----------------------------------------------------------------------------------------- | --------------------------------------------------------------------------
+[advanced-new-file](https://atom.io/packages/advanced-new-file)                           | Better support for creating new files.
 [atom-beautify](https://atom.io/packages/atom-beautify)                                   | Performs code cleanup for multiple languages
 [clipboard-plus](https://atom.io/packages/clipboard-plus)                                 | Adds clipboard history support for pasting from the clipboard history
 [color-picker](https://atom.io/packages/color-picker)                                     | Excellent color picker

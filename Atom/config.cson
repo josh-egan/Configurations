@@ -34,3 +34,7 @@
     minimumTextLength: 1
     maximumTextLength: 5000
     maximumLinesNumber: 6
+  "advanced-new-file":
+    createFileInstantly: true
+    showFilesInAutoComplete: true
+    addTextFromSelection: true
