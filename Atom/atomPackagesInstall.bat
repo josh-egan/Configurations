@@ -5,6 +5,7 @@ set p=advanced-new-file
 set p=%p% atom-beautify
 set p=%p% clipboard-plus
 set p=%p% color-picker
+set p=%p% editorconfig
 set p=%p% file-icons
 set p=%p% language-batchfile
 set p=%p% language-jade
