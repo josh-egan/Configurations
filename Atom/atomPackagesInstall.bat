@@ -1,7 +1,7 @@
 REM Atom must be installed before running this script
 REM The directory in which the script is run doesn't matter. Packages will always be installed in %USERPROFILE%\.atom\packages
 
-set p=advanced-new-file
+set p=advanced-open-file
 set p=%p% atom-beautify
 set p=%p% clipboard-plus
 set p=%p% color-picker
