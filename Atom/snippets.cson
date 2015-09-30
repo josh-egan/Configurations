@@ -1,0 +1,17 @@
+# https://atom.io/docs/latest/using-atom-snippets
+
+'.source.js':
+  'Mocha Describe':
+    'prefix': 'describe'
+    'body': """
+      describe('$1', function() {
+        $2
+      })
+    """
+  'Mocha It':
+    'prefix': 'it'
+    'body': """
+      it('should $1', function() {
+        $2
+      })
+    """
