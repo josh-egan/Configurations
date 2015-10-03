@@ -15,3 +15,10 @@
         $2
       })
     """
+  'Mocha BeforeEach':
+    'prefix': 'beforeEach'
+    'body': """
+      beforeEach(function() {
+        $1
+      })
+    """
