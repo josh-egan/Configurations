@@ -22,3 +22,10 @@
         $1
       })
     """
+  'Mocha Context':
+    'prefix': 'context'
+    'body': """
+      context('$1', function() {
+        $2
+      })
+    """
