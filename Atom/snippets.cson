@@ -8,10 +8,10 @@
         $2
       })
     """
-  'Mocha It':
-    'prefix': 'it'
+  'Mocha Context':
+    'prefix': 'context'
     'body': """
-      it('should $1', function() {
+      context('$1', function() {
         $2
       })
     """
@@ -22,10 +22,17 @@
         $1
       })
     """
-  'Mocha Context':
-    'prefix': 'context'
+  'Mocha AfterEach':
+    'prefix': 'afterEach'
     'body': """
-      context('$1', function() {
+      afterEach(function() {
+        $1
+      })
+    """
+  'Mocha It':
+    'prefix': 'it'
+    'body': """
+      it('should $1', function() {
         $2
       })
     """
