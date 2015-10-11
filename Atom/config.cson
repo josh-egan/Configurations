@@ -9,6 +9,9 @@
     fontSize: 16
     showIndentGuide: true
     scrollPastEnd: true
+    undoGroupingInterval: 100
+  "advanced-open-file":
+    createFileInstantly: true
   "atom-beautify":
     _analyticsUserId: ...
     html_end_with_newline: true
@@ -20,19 +23,17 @@
     js_keep_function_indentation: true
     js_space_after_anon_function: true
     js_end_with_newline: true
-    language_js_beautify_on_save: true
-    language_json_beautify_on_save: true
-    language_markdown_beautify_on_save: true
-  "pigments":
-    markerType: "dot"
-  "open-recent":
-    maxRecentFiles: 6
-    maxRecentDirectories: 10
-  "file-icons":
-    onChanges: true
+    language_js_beautify_on_save: false
+    language_json_beautify_on_save: false
+    language_markdown_beautify_on_save: false
   "clipboard-plus":
     minimumTextLength: 1
     maximumTextLength: 5000
     maximumLinesNumber: 6
-  "advanced-open-file":
-    createFileInstantly: true
+  "file-icons":
+    onChanges: true
+  "open-recent":
+    maxRecentFiles: 6
+    maxRecentDirectories: 10
+  "pigments":
+    markerType: "dot"
