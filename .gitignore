@@ -1,3 +1,5 @@
 null/
 /**/bin/
 /**/obj/
+*.suo
+*.user
