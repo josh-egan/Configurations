@@ -3,6 +3,7 @@ REM The directory in which the script is run doesn't matter. Packages will alway
 
 set p=advanced-open-file
 set p=%p% atom-beautify
+set p=%p% atom-wallaby
 set p=%p% clipboard-plus
 set p=%p% color-picker
 set p=%p% editorconfig
