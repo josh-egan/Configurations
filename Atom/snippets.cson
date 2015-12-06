@@ -22,6 +22,20 @@
         $1
       })
     """
+  'Mocha BeforeEach async':
+    'prefix': 'beforeEachasync'
+    'body': """
+      beforeEach(async function() {
+        $1
+      })
+    """
+  'Mocha Before':
+    'prefix': 'before'
+    'body': """
+      before(function() {
+        $1
+      })
+    """
   'Mocha AfterEach':
     'prefix': 'afterEach'
     'body': """
@@ -29,10 +43,31 @@
         $1
       })
     """
+  'Mocha AfterEach async':
+    'prefix': 'afterEachasync'
+    'body': """
+      afterEach(async function() {
+        $1
+      })
+    """
+  'Mocha After':
+    'prefix': 'after'
+    'body': """
+      after(function() {
+        $1
+      })
+    """
   'Mocha It':
     'prefix': 'it'
     'body': """
       it('should $1', function() {
+        $2
+      })
+    """
+  'Mocha It async':
+    'prefix': 'itasync'
+    'body': """
+      it('should $1', async function() {
         $2
       })
     """
