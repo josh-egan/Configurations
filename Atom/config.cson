@@ -37,3 +37,9 @@
     maxRecentDirectories: 10
   "pigments":
     markerType: "dot"
+  "todo-show":
+    sortBy: "File"
+    showInTable: [
+      "File"
+      "Text"
+    ]
