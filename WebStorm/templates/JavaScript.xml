@@ -1,0 +1,9 @@
+<templateSet group="JavaScript">
+  <template name="import" value="import $package$ from '$packageSource$'" description="Javascript es6 import" toReformat="true" toShortenFQNames="true">
+    <variable name="package" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="packageSource" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
