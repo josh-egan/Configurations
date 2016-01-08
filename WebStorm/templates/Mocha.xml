@@ -1,5 +1,5 @@
 <templateSet group="Mocha">
-  <template name="describe" value="describe('$description$', () => {&#10;$END$&#10;})&#10;" description="Mocha Describe" toReformat="true" toShortenFQNames="true">
+  <template name="describe" value="describe('$description$', () =&gt; {&#10;$END$&#10;})&#10;" description="Mocha Describe" toReformat="true" toShortenFQNames="true">
     <variable name="description" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -8,7 +8,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="context" value="context('$description$', () => {&#10;$END$&#10;})&#10;" description="Mocha Context" toReformat="true" toShortenFQNames="true">
+  <template name="context" value="context('$description$', () =&gt; {&#10;$END$&#10;})&#10;" description="Mocha Context" toReformat="true" toShortenFQNames="true">
     <variable name="description" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -17,7 +17,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="before" value="before(() => {&#10;$END$&#10;})&#10;" description="Mocha Before" toReformat="true" toShortenFQNames="true">
+  <template name="before" value="before(() =&gt; {&#10;$END$&#10;})&#10;" description="Mocha Before" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JS_EXPRESSION" value="true" />
@@ -25,7 +25,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="beforeasync" value="before(async () => {&#10;$END$&#10;})&#10;" description="Mocha Before async" toReformat="true" toShortenFQNames="true">
+  <template name="beforeasync" value="before(async () =&gt; {&#10;$END$&#10;})&#10;" description="Mocha Before async" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JS_EXPRESSION" value="true" />
@@ -33,7 +33,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="beforeEach" value="beforeEach(() => {&#10;$END$&#10;})&#10;" description="Mocha BeforeEach" toReformat="true" toShortenFQNames="true">
+  <template name="beforeEach" value="beforeEach(() =&gt; {&#10;$END$&#10;})&#10;" description="Mocha BeforeEach" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JS_EXPRESSION" value="true" />
@@ -41,7 +41,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="beforeEachasync" value="beforeEach(async () => {&#10;$END$&#10;})&#10;" description="Mocha BeforeEach async" toReformat="true" toShortenFQNames="true">
+  <template name="beforeEachasync" value="beforeEach(async () =&gt; {&#10;$END$&#10;})&#10;" description="Mocha BeforeEach async" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JS_EXPRESSION" value="true" />
@@ -49,7 +49,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="it" value="it('should $specification$', () => {&#10;$END$&#10;})&#10;" description="Mocha It" toReformat="true" toShortenFQNames="true">
+  <template name="it" value="it('should $specification$', () =&gt; {&#10;$END$&#10;})&#10;" description="Mocha It" toReformat="true" toShortenFQNames="true">
     <variable name="specification" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -58,7 +58,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="itasync" value="it('should $specification$', async () => {&#10;$END$&#10;})&#10;" description="Mocha It async" toReformat="true" toShortenFQNames="true">
+  <template name="itasync" value="it('should $specification$', async () =&gt; {&#10;$END$&#10;})&#10;" description="Mocha It async" toReformat="true" toShortenFQNames="true">
     <variable name="specification" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -67,7 +67,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-    <template name="after" value="after(() => {&#10;$END$&#10;})&#10;" description="Mocha After" toReformat="true" toShortenFQNames="true">
+    <template name="after" value="after(() =&gt; {&#10;$END$&#10;})&#10;" description="Mocha After" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JS_EXPRESSION" value="true" />
@@ -75,7 +75,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="afterasync" value="after(async () => {&#10;$END$&#10;})&#10;" description="Mocha After async" toReformat="true" toShortenFQNames="true">
+  <template name="afterasync" value="after(async () =&gt; {&#10;$END$&#10;})&#10;" description="Mocha After async" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JS_EXPRESSION" value="true" />
@@ -83,7 +83,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="afterEach" value="afterEach(() => {&#10;$END$&#10;})&#10;" description="Mocha AfterEach" toReformat="true" toShortenFQNames="true">
+  <template name="afterEach" value="afterEach(() =&gt; {&#10;$END$&#10;})&#10;" description="Mocha AfterEach" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JS_EXPRESSION" value="true" />
@@ -91,7 +91,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="afterEachasync" value="afterEach(async () => {&#10;$END$&#10;})&#10;" description="Mocha AfterEach async" toReformat="true" toShortenFQNames="true">
+  <template name="afterEachasync" value="afterEach(async () =&gt; {&#10;$END$&#10;})&#10;" description="Mocha AfterEach async" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JS_EXPRESSION" value="true" />
