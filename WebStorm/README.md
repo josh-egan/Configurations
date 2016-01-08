@@ -22,7 +22,10 @@ The config folder location depends on your operating system and your version of 
 >
 > https://www.jetbrains.com/webstorm/help/project-and-ide-settings.html
 
-So, for example, on Linux the config folder is at `~/.WebStorm11/config`.
+For convenience, here are some paths to the config folder that you can copy/paste:
+- Windows: `%USERPROFILE%\.WebStorm11\config`
+- Linux: `~/.WebStorm11/config`
+- OS X: `~/Library/Preferences/WebStorm11/config`
 
 ### Importing settings
 
