@@ -12,7 +12,7 @@ Some notes:
 - async/await currently requires the babel-polyfill
 - the babel-polyfill must be `require`d in the root javascript file
 
-`npm install --save-dev babel-core babel-runtime babel-preset-es2015 babel-preset-stage-3 babel-plugin-transform-class-properties`
+`npm install --save-dev babel-core babel-cli babel-runtime babel-preset-es2015 babel-preset-stage-3 babel-plugin-transform-class-properties`
 
 `npm install --save babel-polyfill`
 
@@ -42,4 +42,9 @@ Some notes:
     "compile": "babel src --out-dir dist --source-maps --compact --ignore **/*specs.js"
   }
 }
+```
+
+`wallaby-babel-config.js`
+```js
+//TODO
 ```
