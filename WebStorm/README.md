@@ -29,4 +29,10 @@ For convenience, here are some paths to the config folder that you can copy/past
 
 ### Importing settings
 
-At some point, I might export the settings and include the jar file. This would allow for importing settings using WebStorm's "Import Settings" feature. However, I am choosing not to do so for the moment because jar files are not editable. Since copying the xml files directly works, makes it easy to pick and choose which settings to import, and makes it easy to modify the settings at will, no jar files are included for the time being.
+To import settings, download the `settings.jar` file and use the File -> Import option in WebStorm.
+
+## Contributing
+
+The .xml files have to be copied over from the WebStorm user directory.
+
+To export, use the File -> Export option in WebStorm. 
