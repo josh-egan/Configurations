@@ -1,5 +1,5 @@
 <templateSet group="JavaScript">
-  <template name="req" value="const $var = require('$package')" description="ES6 require statement" toReformat="true" toShortenFQNames="true">
+  <template name="require" value="const $var$ = require('$package$')" description="ES6 require statement" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JS_EXPRESSION" value="true" />
